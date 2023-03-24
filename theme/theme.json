@@ -1,0 +1,11 @@
+{
+    "name": "More Plugins",
+    "author": "the_bukkit",
+    "version": "v0.1",
+    "manifest_version": 5,
+    "description": "Shows more decky plugins at once",
+    "target": "Tweak",
+    "inject": {
+        "shared.css": ["QuickAccess"]
+    }
+}

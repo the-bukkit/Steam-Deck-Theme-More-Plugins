@@ -1,0 +1,53 @@
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 {
+    padding: 0;
+    display: grid;
+    grid-auto-rows: 1fr;
+}
+
+/* Decky plugin selection */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 {
+    padding: 0;
+    min-width: 0;
+}
+
+/* Decky plugin selection (every odd element)*/
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88:nth-child(even) {
+    grid-column: 1;
+}
+
+/* Decky plugin selection (every even element)*/
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88:nth-child(even) {
+    grid-column: 2;
+}
+
+/* Decky plguin selection highlight */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/* Decky plguin selection inner highlight */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB {
+    margin: 0 5%;
+    height: 100%;
+}
+
+/* Decky plugin selection button */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 button {
+    padding: 4px 6px;
+    min-width: 0;
+    margin: 10px 0;
+    height: calc(100% - 20px);
+}
+
+/* Plugin icon */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button > div > svg{
+    width: 10%;
+}
+
+/* Plugin name */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button > div > div{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
