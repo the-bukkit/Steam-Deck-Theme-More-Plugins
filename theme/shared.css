@@ -1,33 +1,34 @@
+/* Decky plugin panel */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 {
     padding: 0;
     display: grid;
     grid-auto-rows: 1fr;
 }
 
-/* Decky plugin selection */
+/* Plugin selection */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 {
     min-width: 0;
 }
 
-/* Decky plugin selection (every second element)*/
+/* Plugin selection (every second element)*/
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88:nth-child(even) {
     grid-column: 2;
 }
 
-/* Decky plguin selection highlight */
+/* Plguin selection highlight */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT {
     padding: 0;
     margin: 0;
     height: 100%;
 }
 
-/* Decky plguin selection inner highlight */
+/* Plguin selection inner highlight */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB {
     margin: 0 5%;
     height: 100%;
 }
 
-/* Decky plugin selection button */
+/* Plugin button */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 button {
     padding: 4px 6px;
     min-width: 0;
@@ -35,7 +36,7 @@
     height: calc(100% - 20px);
 }
 
-/* Plugin inner button container */
+/* Plugin inner button */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button > div {
     justify-content: left !important;
 }
