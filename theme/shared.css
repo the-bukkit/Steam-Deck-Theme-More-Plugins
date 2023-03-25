@@ -6,16 +6,10 @@
 
 /* Decky plugin selection */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 {
-    padding: 0;
     min-width: 0;
 }
 
-/* Decky plugin selection (every odd element)*/
-.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88:nth-child(even) {
-    grid-column: 1;
-}
-
-/* Decky plugin selection (every even element)*/
+/* Decky plugin selection (every second element)*/
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88:nth-child(even) {
     grid-column: 2;
 }
@@ -58,4 +52,5 @@
     text-overflow: ellipsis;
     text-align: left;
     margin-left: 6px;
+    max-height: 2.6em;
 }
