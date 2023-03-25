@@ -29,7 +29,7 @@
 }
 
 /* Plugin button */
-.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 button {
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button {
     padding: 4px 6px;
     min-width: 0;
     margin: 10px 0;
