@@ -41,13 +41,21 @@
     height: calc(100% - 20px);
 }
 
+/* Plugin inner button container */
+.quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button > div {
+    justify-content: left !important;
+}
+
 /* Plugin icon */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button > div > svg{
     width: 10%;
+    min-width: 10%;
 }
 
 /* Plugin name */
 .quickaccessmenu_ContentTransition_32AON:last-child > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccessmenu_TabGroupPanel_1QO7b > .quickaccesscontrols_PanelSection_2C0g0 > .quickaccesscontrols_PanelSectionRow_2VQ88 > .gamepaddialog_WithChildrenBelow_1u5FT > .gamepaddialog_FieldChildren_14_HB > button > div > div{
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: left;
+    margin-left: 6px;
 }

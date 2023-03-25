@@ -1,7 +1,7 @@
 {
     "name": "More Plugins",
     "author": "the_bukkit",
-    "version": "v0.1",
+    "version": "v0.2",
     "manifest_version": 5,
     "description": "Shows more decky plugins at once",
     "target": "Tweak",
