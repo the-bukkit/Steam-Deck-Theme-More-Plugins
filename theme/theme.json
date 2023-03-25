@@ -3,7 +3,7 @@
     "author": "the_bukkit",
     "version": "v0.3",
     "manifest_version": 5,
-    "description": "Shows more decky plugins at once",
+    "description": "Shows more decky plugins at once. (Note: This is just a visual change, navigation via dpad or stick is still up / down only)",
     "target": "Tweak",
     "inject": {
         "shared.css": ["QuickAccess"]
